@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Word</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c42ed3031b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class="heading">Guess The Word</h2>
+        <div class="blanks">
+            <!-- <span></span> -->
+        </div>
+        <div class="output">
+            <p class="hint">Hint : <span></span></p>
+            <p class="chances">Chances remaining : <span></span></p>
+            <p class="guesses">Wrong guesses : <span></span></p>
+        </div>
+        <div class="keyboard">
+            <button onclick="getBtn('a')">a</button>
+            <button onclick="getBtn('b')">b</button>
+            <button onclick="getBtn('c')">c</button>
+            <button onclick="getBtn('d')">d</button>
+            <button onclick="getBtn('e')">e</button>
+            <button onclick="getBtn('f')">f</button>
+            <button onclick="getBtn('g')">g</button>
+            <button onclick="getBtn('h')">h</button>
+            <button onclick="getBtn('i')">i</button>
+            <button onclick="getBtn('j')">j</button>
+            <button onclick="getBtn('k')">k</button>
+            <button onclick="getBtn('l')">l</button>
+            <button onclick="getBtn('m')">m</button>
+            <button onclick="getBtn('n')">n</button>
+            <button onclick="getBtn('o')">o</button>
+            <button onclick="getBtn('p')">p</button>
+            <button onclick="getBtn('q')">q</button>
+            <button onclick="getBtn('r')">r</button>
+            <button onclick="getBtn('s')">s</button>
+            <button onclick="getBtn('t')">t</button>
+            <button onclick="getBtn('u')">u</button>
+            <button onclick="getBtn('v')">v</button>
+            <button onclick="getBtn('w')">w</button>
+            <button onclick="getBtn('x')">x</button>
+            <button onclick="getBtn('y')">y</button>
+            <button onclick="getBtn('z')">z</button>
+        </div>
+        <p onclick="gameOn()" class="playAgain">Play Again</p>
+        <div class="result">You <span></span></div>
+        <div onclick="reloadGame()" class="reload">
+            <button><i class="fa-solid fa-rotate-right"></i></button>
+        </div>
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
